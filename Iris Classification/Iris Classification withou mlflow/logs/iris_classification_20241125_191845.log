@@ -1,0 +1,28 @@
+2024-11-25 19:18:45,579 - IrisClassification - INFO - Loading and preprocessing data...
+2024-11-25 19:18:45,585 - IrisClassification - INFO - Data preprocessing completed successfully
+2024-11-25 19:18:45,585 - IrisClassification - INFO - Training Random Forest Classifier...
+2024-11-25 19:18:45,695 - IrisClassification - INFO - Model trained and saved to models/rf_model_20241125_191845.pkl
+2024-11-25 19:18:45,696 - IrisClassification - INFO - Evaluating model performance...
+2024-11-25 19:18:45,715 - IrisClassification - INFO - Model Accuracy: 1.0000
+2024-11-25 19:18:45,715 - IrisClassification - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       1.00      1.00      1.00         9
+   virginica       1.00      1.00      1.00        11
+
+    accuracy                           1.00        30
+   macro avg       1.00      1.00      1.00        30
+weighted avg       1.00      1.00      1.00        30
+
+2024-11-25 19:18:45,717 - IrisClassification - INFO - Checking for data drift...
+2024-11-25 19:18:45,719 - IrisClassification - WARNING - Drift detected in feature sepal length (cm): KS statistic = 0.7200, p-value = 0.0000
+2024-11-25 19:18:45,720 - IrisClassification - WARNING - Drift detected in feature sepal width (cm): KS statistic = 0.3800, p-value = 0.0013
+2024-11-25 19:18:45,721 - IrisClassification - WARNING - Drift detected in feature petal length (cm): KS statistic = 0.8800, p-value = 0.0000
+2024-11-25 19:18:45,721 - IrisClassification - WARNING - Drift detected in feature petal width (cm): KS statistic = 0.8400, p-value = 0.0000
+2024-11-25 19:18:45,723 - IrisClassification - INFO - Making predictions...
+2024-11-25 19:18:45,753 - IrisClassification - INFO - Prediction 1: Class=setosa (Probability=1.0000)
+2024-11-25 19:18:45,753 - IrisClassification - INFO - Prediction 2: Class=setosa (Probability=1.0000)
+2024-11-25 19:18:45,754 - IrisClassification - INFO - Prediction 3: Class=setosa (Probability=1.0000)
+2024-11-25 19:18:45,754 - IrisClassification - INFO - Prediction 4: Class=setosa (Probability=1.0000)
+2024-11-25 19:18:45,754 - IrisClassification - INFO - Prediction 5: Class=setosa (Probability=1.0000)
