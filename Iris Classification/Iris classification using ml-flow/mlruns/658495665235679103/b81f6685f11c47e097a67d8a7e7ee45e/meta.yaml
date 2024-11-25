@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sain/Desktop/Workspace/MLOps/Iris%20Classification/Iris%20classification%20using%20ml-flow/mlruns/658495665235679103/b81f6685f11c47e097a67d8a7e7ee45e/artifacts
+end_time: 1732542507345
+entry_point_name: ''
+experiment_id: '658495665235679103'
+lifecycle_stage: active
+run_id: b81f6685f11c47e097a67d8a7e7ee45e
+run_name: skittish-hen-658
+run_uuid: b81f6685f11c47e097a67d8a7e7ee45e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732542505697
+status: 3
+tags: []
+user_id: sain
